@@ -11,6 +11,42 @@
           text-transform: uppercase;
         
         }
+        #text-of01{
+            width: 200px;
+            border: 1px solid mediumturquoise;
+            overflow: hidden;
+            text-overflow: clip;
+            white-space: nowrap;
+        }
+        #text-of02{
+            width: 200px;
+            border: 1px solid mediumturquoise;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        p#text-title01{
+            width: 150px;
+            border: 1px solid powderblue;
+            word-wrap: normal;
+        }
+        p#text-title02{
+            width: 150px;
+            border: 1px solid powderblue;
+            word-wrap: break-word;
+        }
+        #text-content01{
+            width: 400px;
+            border: 1px solid skyblue;
+            text-indent: 32px;
+            text-align: justify;
+        }
+        #text-content02{
+            width: 400px;
+            border: 1px solid skyblue;
+            text-indent: 40px;
+            text-align: justify;
+        }
         .center{
             text-align: center;    
         }
@@ -19,10 +55,11 @@
 </head>
 
 <body>
-    <h1>The Forgotten Symphony</h1>
-    <h1>The Forgotten Symphony</h1>
+    <h1 id="text-of01">The Forgotten Symphony</h1>
+    <h1 id="text-of02">The Forgotten Symphony</h1>
     <h1 class="center">The Forgotten Symphony</h1>
-    <p>In a quaint town nestled between misty mountains and lush forests, there stood an ancient theater, its grandeur
+    <p id="text-content01">
+        In a quaint town nestled between misty mountains and lush forests, there stood an ancient theater, its grandeur
         fading into obscurity. Inside its hallowed halls, amidst dust-covered seats, lay a forgotten treasure—a symphony
         unheard for centuries.
 
@@ -30,7 +67,8 @@
         afternoon. Drawn by an inexplicable force, she ventured inside, her heart racing with anticipation. Amidst the
         echoes of
         forgotten melodies, she discovered a weathered score hidden beneath layers of neglect.
-
+    </p>
+    <p id="text-content02">
         Driven by an insatiable curiosity, Elena devoted herself to resurrecting the symphony from the ashes of time.
         With each note she played, the theater came alive, its walls pulsating with the resonance of music long
         forgotten.
@@ -40,6 +78,10 @@
         the sweet
         strains of the symphony, a testament to the enduring power of music and the resilience of the human spirit.
     </p>
+
+    <hr>
+    <p id="text-title01">(https//www.chatgpt.com)</p>
+    <p id="text-title02">(https//www.chatgpt.com)</p>
 </body>
 
 </html>
