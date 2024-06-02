@@ -91,6 +91,10 @@ nav ul li a:hover{
   color: #0f1c3b;
 }
 
+main section blockquote{
+  background-position: center;
+}
+
 @media(max-width:580px) {
 
 html, body {
