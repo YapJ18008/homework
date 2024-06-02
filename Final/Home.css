@@ -74,6 +74,10 @@ nav ul li a {
   font-size: 20px;
 }
 
+nav ul li a:hover{
+  text-decoration: underline;
+}
+
 .menu-icon {
   width: 100%;
   background: #000;
