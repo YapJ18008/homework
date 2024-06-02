@@ -91,6 +91,11 @@ nav ul li a:hover{
   color: #0f1c3b;
 }
 
+section{
+  background-color: bisque;
+  padding: color blue;
+}
+
 main section blockquote{
   text-align: center;
 }
