@@ -92,7 +92,7 @@ nav ul li a:hover{
 }
 
 main section blockquote{
-  background-position: center;
+  text-align: center;
 }
 
 @media(max-width:580px) {
