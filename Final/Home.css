@@ -104,6 +104,11 @@ main section{
 margin: 10px;
 }
 
+.content{
+  display: flex;
+  justify-content: space-evenly;
+}
+
 @media(max-width:580px) {
 
 html, body {
